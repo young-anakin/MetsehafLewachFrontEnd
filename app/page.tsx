@@ -38,7 +38,7 @@ export default function Home() {
                     onClick={openModal}
                     className=""
                   >
-                    SIGN UP
+                    CREATE ACCOUNT
                   </button>
                   <Link href = "#">BOOKS</Link>
                   <Link href = "#">LISTS</Link>
