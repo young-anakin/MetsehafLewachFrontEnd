@@ -19,11 +19,11 @@ export default function Home() {
   const closeModal = () => setIsOpen(false);
   return (
     <div className=' font-vidaloka h-full text-white '>
-          <div className="mx-auto w-[900px] container">
+          <div className="mx-auto w-[900px] container ">
             
             
             <div className="flex items-center justify-between py-5 px-8">
-                <div>
+                <div className="text-xl">
                   <h1>METSEHAF LEWACH</h1>
                 </div>
                 <div className="flex gap-3 text-sm items-center text-[#F5F5DC]">
