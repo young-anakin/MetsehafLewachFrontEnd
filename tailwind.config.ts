@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['IBM Plex Sans', 'sans-serif'],
+        vidaloka: ['Vidaloka', 'serif'],  // Added Vidaloka font here
+        poppins: ['Poppins', 'sans-serif'],  // Added Poppins font here
+        lato: ['Lato', 'sans-serif'],
+
+      },
     },
   },
   plugins: [],
