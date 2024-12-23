@@ -52,10 +52,22 @@ export default {
   			}
   		},
   		fontFamily: {
-  			sans: ['IBM Plex Sans', 'sans-serif'],
-  			vidaloka: ['Vidaloka', 'serif'],
-  			poppins: ['Poppins', 'sans-serif'],
-  			lato: ['Lato', 'sans-serif']
+  			sans: [
+  				'IBM Plex Sans',
+  				'sans-serif'
+  			],
+  			vidaloka: [
+  				'Vidaloka',
+  				'serif'
+  			],
+  			poppins: [
+  				'Poppins',
+  				'sans-serif'
+  			],
+  			lato: [
+  				'Lato',
+  				'sans-serif'
+  			]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
