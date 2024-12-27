@@ -571,6 +571,197 @@ journal-list-button {
 
 
 
+ .update-button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #0066cc; /* Blue border */
+  background-color: #007bff; /* Blue background */
+  overflow: hidden;
+}
+
+.update-button, .update-button__icon, .update-button__text {
+  transition: all 0.3s;
+}
+
+.update-button .update-button__text {
+  transform: translateX(35px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.update-button .update-button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #0066cc; /* Blue icon background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-button .svg {
+  width: 20px;
+}
+
+.update-button:hover {
+  background: #0066cc; /* Darker blue on hover */
+}
+
+.update-button:hover .update-button__text {
+  color: transparent;
+}
+
+.update-button:hover .update-button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.update-button:active .update-button__icon {
+  background-color: #0056b3; /* Even darker blue when active */
+}
+
+.update-button:active {
+  border: 1px solid #0056b3; /* Darker blue border when active */
+}
+
+
+
+.share-button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #b0b0b0; /* Light gray border */
+  background-color: #f0f0f0; /* Light gray background */
+  overflow: hidden;
+}
+
+.share-button,
+.share-button__icon,
+.share-button__text {
+  transition: all 0.3s;
+}
+
+.share-button .share-button__text {
+  transform: translateX(35px);
+  color: #606060; /* Darker gray text */
+  font-weight: 600;
+}
+
+.share-button .share-button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #e0e0e0; /* Slightly darker gray for the icon background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-button .svg {
+  width: 20px;
+  fill: #606060; /* Darker gray icon */
+}
+
+.share-button:hover {
+  background: #e0e0e0; /* Slightly darker gray on hover */
+}
+
+.share-button:hover .share-button__text {
+  color: transparent;
+}
+
+.share-button:hover .share-button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.share-button:active .share-button__icon {
+  background-color: #d0d0d0; /* Even darker gray when active */
+}
+
+.share-button:active {
+  border: 1px solid #909090; /* Darker gray border when active */
+}
+
+
+
+
+
+
+
+
+
+.delete-button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cc0000; /* Red border */
+  background-color: #fff; /* White background */
+  overflow: hidden;
+}
+
+.delete-button,
+.delete-button__icon,
+.delete-button__text {
+  transition: all 0.3s;
+}
+
+.delete-button .delete-button__text {
+  transform: translateX(35px);
+  color: #cc0000; /* Red text */
+  font-weight: 600;
+}
+
+.delete-button .delete-button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #fff; /* White icon background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button .svg {
+  width: 20px;
+  fill: #cc0000; /* Red icon color */
+}
+
+.delete-button:hover {
+  background: #ffe5e5; /* Light red on hover */
+}
+
+.delete-button:hover .delete-button__text {
+  color: transparent;
+}
+
+.delete-button:hover .delete-button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.delete-button:active .delete-button__icon {
+  background-color: #f5cccc; /* Slightly darker light red */
+}
+
+.delete-button:active {
+  border: 1px solid #b20000; /* Darker red border when active */
+}
+
+
 
 
 /* @layer base {

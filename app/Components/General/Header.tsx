@@ -35,10 +35,10 @@ const Header = () => {
     const closeModal = () => setIsOpen(false);
   return (
     <div className="flex items-center justify-between py-5 px-8 ">
-        <div className="text-xl">
+        <div className="text-xl text-[#92400E]">
         <h1>METSEHAF LEWACH</h1>
         </div>
-        <div className="flex gap-3 text-sm items-center text-[#F5F5DC]">
+        <div className="flex gap-3 text-sm items-center text-[#92400E]">
         {/* <Link href = "#">SIGN IN</Link> */}
         <button
             onClick={openSignIn}
