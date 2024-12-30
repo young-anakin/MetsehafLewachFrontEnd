@@ -1,5 +1,6 @@
 import Header from '@/app/Components/General/Header'
 import EntryPage from '@/components/JournalComponents/EntryPage'
+import SpecificChallengePage from '@/components/JournalComponents/SpecificChallengePage'
 import Link from 'next/link'
 import React from 'react'
 
@@ -45,7 +46,7 @@ const Page = () => {
         </div>
 
         <div className='flex mx-12 flex-col gap-5'>
-          <EntryPage />
+          <SpecificChallengePage />
         </div>
       </div>
     </div>
